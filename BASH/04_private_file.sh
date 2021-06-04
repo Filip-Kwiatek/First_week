@@ -1,0 +1,2 @@
+touch the_file_is_private.sh
+chmod 755 the_file_is_private.sh
