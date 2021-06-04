@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="./changeColor.js"></script>
     <style>
         div {
             display: inline-block;
@@ -18,11 +17,12 @@
   </head>
   <body>
     <h3>Hover on the color names to change the color of the big square.</h3>
-    <div onmouseover="Color()" id="blue">BLUE</div>
-    <div onmouseover="Color()" id="red">RED</div>
-    <div onmouseover="Color()" id="yellow">YELLOW</div>
-    <div onmouseover="Color()" id="green">GREEN</div>
-    <div onmouseover="Color()" id="black">BLACK</div>
-    <div onmouseover="Color()" id="square"></div>
+    <div onmouseover="color('blue')" id="button-blue">BLUE</div>
+    <div onmouseover="color('red')" id="button-red">RED</div>
+    <div onmouseover="color('yellow')" id="button-yellow">YELLOW</div>
+    <div onmouseover="color('green')" id="button-green">GREEN</div>
+    <div onmouseover="color('black')" id="button-black">BLACK</div>
+    <div id="square"></div>
+    <script src="./changeColor.js"></script>
   </body>
 </html>
